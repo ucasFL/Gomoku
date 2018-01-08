@@ -2,7 +2,7 @@ cc = gcc
 
 OBJDIR = ./obj
 
-src = $(shell ls src/*.c src/*.h)
+src = $(shell ls src/*.c)
 
 obj = Gomoku 
 
